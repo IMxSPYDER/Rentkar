@@ -2,9 +2,9 @@ import React from "react";
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidenavbar from "./components/Sidenavbar";
-import Dashboard from "./pages/dashboard";
-import Orders from "./pages/orders";
-import Parteners from "./pages/parteners";
+import Dashboard from "./pages/Dashboard";
+import Orders from "./pages/Orders";
+import Parteners from "./pages/Parteners";
 import Contact from "./pages/Contact";
 import SearchHeader from "./components/SearchHeader";
 
