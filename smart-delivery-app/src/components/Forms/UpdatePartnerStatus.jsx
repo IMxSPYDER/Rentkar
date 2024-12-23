@@ -74,17 +74,17 @@ const UpdatePartnerStatus = ({ partner, closeModal, updatePartnerStatus }) => {
         </select>
       </div>
 
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <button
           type="button"
           onClick={closeModal}
-          className="bg-gray-500 text-white font-bold px-2 py-1 rounded-md hover:bg-gray-600"
+          className="bg-gray-500 font-semibold text-white px-4 py-2 rounded-md hover:bg-gray-600"
         >
           Cancel
         </button>
         <button
           type="submit"
-          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
+          className="bg-blue-700 font-semibold text-white py-2 px-4 rounded hover:bg-blue-800"
         >
           Update Status
         </button>

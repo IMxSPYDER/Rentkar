@@ -230,13 +230,13 @@ const AddOrderModal = ({ isOpen, onClose }) => {
           <div className="flex justify-between items-center mt-4">
             <button
               onClick={onClose}
-              className="bg-gray-300 text-gray-700 py-2 px-4 rounded"
+              className="bg-gray-500 font-semibold text-white px-4 py-2 rounded-md hover:bg-gray-600"
             >
               Cancel
             </button>
             <button
               onClick={handleSubmit}
-              className="bg-blue-700 text-white py-2 px-4 rounded"
+              className="bg-blue-700 font-semibold text-white py-2 px-4 rounded hover:bg-blue-800"
             >
               Submit Order
             </button>
