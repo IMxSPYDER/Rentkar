@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-    origin: 'https://rentkar-api.vercel.app/', // The URL of your frontend
+    origin: 'https://rentkar-frontend.onrender.com', // The URL of your frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
   }));
