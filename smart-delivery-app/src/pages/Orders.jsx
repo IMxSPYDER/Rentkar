@@ -18,7 +18,7 @@ const Orders = () => {
 
         const partnerIds = [...new Set(ordersData.map((order) => order.assignedTo))];
         const partnersResponse = await fetch(
-          `http://localhost:3000/api/partners?ids=${partnerIds.join(",")}`
+          `https://rentkar-backend-knt8.onrender.com/api/partners?ids=${partnerIds.join(",")}`
         );
         const partnersData = await partnersResponse.json();
         setPartners(partnersData);
