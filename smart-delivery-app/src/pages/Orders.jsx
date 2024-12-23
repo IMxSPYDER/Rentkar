@@ -12,7 +12,7 @@ const Orders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const ordersResponse = await fetch("https://rentkar-api.vercel.app/api/orders");
+        const ordersResponse = await fetch("https://rentkar-backend-knt8.onrender.com/api/orders");
         const ordersData = await ordersResponse.json();
         setOrders(ordersData);
 
