@@ -19,7 +19,7 @@ const AddOrderModal = ({ isOpen, onClose }) => {
   useEffect(() => {
     if (isOpen) {
       axios
-        .get("http://localhost:3000/api/active-delivery-partners")
+        .get("https://rentkar-api.vercel.app/api/active-delivery-partners")
         .then((response) => {
           setPartners(response.data); // Store active partners in state
         })
