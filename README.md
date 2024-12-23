@@ -72,7 +72,6 @@ The **Smart Delivery Management System** is a modern web-based platform designed
    a. **Backend:** 
       ```bash
       node app.js
-
-   b. **Frontend:**
+b. **Frontend:**
       ```bash
       npm run dev
