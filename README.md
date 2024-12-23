@@ -69,9 +69,11 @@ The **Smart Delivery Management System** is a modern web-based platform designed
    npm install
 
 6. **Start the Application:**
+
    a. **Backend:** 
       ```bash
       node app.js
+         ```bash
 b. **Frontend:**
       ```bash
       npm run dev
