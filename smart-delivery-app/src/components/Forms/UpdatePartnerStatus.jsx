@@ -17,7 +17,7 @@ const UpdatePartnerStatus = ({ partner, closeModal, updatePartnerStatus }) => {
       }
   
       // Send the updated status (from the state) instead of partner.status
-      const response = await fetch(`https://rentkar-api.vercel.app/api/partners/${partner._id}`, {
+      const response = await fetch(`https://rentkar-backend-knt8.onrender.com/api/partners/${partner._id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
