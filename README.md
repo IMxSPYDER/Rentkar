@@ -3,6 +3,9 @@
 The **Smart Delivery Management System** is a modern web-based platform designed to streamline delivery operations. It empowers businesses to efficiently manage delivery partners, track order statuses, and optimize operations with features like smart order assignment and performance tracking.
 
 ---
+![image](https://github.com/user-attachments/assets/f276e4ac-1730-4a32-81f7-26732ab6402f)
+
+---
 
 ## Features
 
