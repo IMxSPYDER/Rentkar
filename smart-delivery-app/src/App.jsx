@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sidenavbar from "../src/components/sidenavbar";
+import Sidenavbar from "./components/Sidenavbar";
 import Dashboard from "./pages/dashboard";
 import Orders from "./pages/orders";
 import Parteners from "./pages/parteners";
