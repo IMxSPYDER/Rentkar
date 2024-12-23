@@ -51,3 +51,28 @@ The **Smart Delivery Management System** is a modern web-based platform designed
 1. **Clone the Repository:**  
    ```bash
    git clone https://github.com/IMxSPYDER/Rentkar.git
+
+2. **Navigate to the Backend Directory:**  
+   ```bash
+   cd backend
+
+3. **Install Backend Dependencies:**  
+   ```bash
+   npm install
+
+4. **Navigate to the Frontend Directory:**  
+   ```bash
+   cd ../smart-delivery-app
+
+5. **Install Frontend Dependencies**  
+   ```bash
+   npm install
+
+6. **Start the Application:**
+   a. **Backend:** 
+      ```bash
+      node app.js
+
+   b. **Frontend:**
+      ```bash
+      npm run dev
