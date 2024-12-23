@@ -63,7 +63,7 @@ const Orders = () => {
 
   const handleUpdateStatus = async (orderId, newStatus) => {
     try {
-      await fetch(`http://localhost:3000/api/orders/${orderId}`, {
+      await fetch(`https://rentkar-backend-knt8.onrender.com/api/orders/${orderId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ status: newStatus }),
