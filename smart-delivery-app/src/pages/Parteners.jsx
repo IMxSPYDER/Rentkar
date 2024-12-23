@@ -37,7 +37,7 @@ const Partners = () => {
   useEffect(() => {
     const fetchPartners = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/partners"); // Replace with your actual endpoint
+        const response = await fetch("https://rentkar-api.vercel.app/api/partners"); // Replace with your actual endpoint
         const data = await response.json();
         const formattedData = data.map((partner) => ({
           ...partner,
