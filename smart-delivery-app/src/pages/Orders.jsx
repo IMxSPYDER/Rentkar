@@ -12,7 +12,7 @@ const Orders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const ordersResponse = await fetch("http://localhost:3000/api/orders");
+        const ordersResponse = await fetch("https://rentkar-api.vercel.app/api/orders");
         const ordersData = await ordersResponse.json();
         setOrders(ordersData);
 
